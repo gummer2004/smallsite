@@ -4,8 +4,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Repo
-        uses: action/checkout@v3
+#      - name: Check out Repo
+#        uses: action/checkout@v3
       - name: Deploy to the serve
         uses: appleboy/ssh-action@v1.2.0
         with:
