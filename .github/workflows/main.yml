@@ -14,5 +14,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/ed.thebyrnefamily.ca
-            git clone git@github.com:gummer2004/smallsite.git
+            git pull
               
